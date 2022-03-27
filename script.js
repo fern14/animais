@@ -1,4 +1,3 @@
-// import { initFechAnimais } from "./fetch-animais";
 
 function initAcoordion() {
   const accordionList = document.querySelectorAll(".js-accordion dt");
@@ -24,7 +23,6 @@ function initScrollSuave() {
   const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
   function scrollToSection(event) {
-    // preventDefault - previne o evento padrão
     event.preventDefault();
     const href = event.currentTarget.getAttribute("href");
     const section = document.querySelector(href);
